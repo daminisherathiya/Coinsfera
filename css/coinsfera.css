@@ -107,6 +107,9 @@ body {
 .pt-25px {
   padding-top: 25px;
 }
+.address {
+  height: 498px;
+}
 .address-img {
   top: 26px;
   right: -27px;
@@ -120,14 +123,32 @@ body {
   width: 324px;
   height: 159px;
   padding: 35px 33px;
-  z-index: 3;
   left: 58px;
   top: 304px;
+}
+@media (max-width: 1200px) {
+  .address {
+    height: 700px;
+  }
+  .address-tag {
+    left: 33px;
+    top: 483px;
+  } 
+}
+@media (max-width: 991px) {
+  .address {
+    height: 700px;
+  }
+  .address-tag {
+    left: 127px;
+    top: 453px;
+  } 
 }
 .pin-icon-img {
   left: 7px;
   top: -49px;
 }
+
 
 
 
