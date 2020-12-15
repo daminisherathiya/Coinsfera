@@ -58,14 +58,21 @@ body {
   border-radius: 7px;
   border: 1px solid #f9a541;
   color: #f9a541;
-  padding: 11px 24px;
   font-family: Circular-Medium;
+  width: 129px;
+  height: 50px;
 }
 .navbar-height {
   line-height: 43px;
 }
 .nav-divider {
   margin: 0 17px;
+}
+.font-size-12 {
+  font-size: 12px !important;
+}
+.font-size-30 {
+  font-size: 30px !important;
 }
 .font-size-14 {
   font-size: 14px !important;
@@ -76,11 +83,23 @@ body {
 .font-size-21 {
   font-size: 21px !important;
 }
+.font-size-24 {
+  font-size: 24px !important;
+}
+.font-size-36 {
+  font-size: 36px !important;
+}
 .mb-10px {
   margin-bottom: 10px;
 }
 .font-size-42 {
   font-size: 42px;
+}
+.positive-color {
+  color: #00c4a6;
+}
+.negative-color {
+  color: #e13131;
 }
 .black-color {
   color: #202020;
@@ -94,6 +113,15 @@ body {
 .orange-color {
   color: #f9a541;
 }
+.mr-13px {
+  margin-right: 13px;
+}
+.pt-111px {
+  padding-top: 111px;
+}
+.pt-72px {
+  padding-top: 72px;
+}
 .mt-30px {
   margin-top: 30px;
 }
@@ -106,6 +134,9 @@ body {
 }
 .pt-25px {
   padding-top: 25px;
+}
+.pt-19px {
+  padding-top: 19px;
 }
 .address {
   height: 498px;
@@ -148,6 +179,70 @@ body {
   left: 7px;
   top: -49px;
 }
+.background-1 {
+  /* background-color: rgb( 247, 246, 244 ); */
+  background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 90%, white 90% 100%);;
+  /* height: 759px; */
+}
+.nav-bg {
+  background-color: rgb( 247, 246, 244 );
+}
+
+.price-box {
+  border-radius: 9px;
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 0px 3px 9px 0px rgb( 200, 183, 166 );
+  width: 258px;
+  height: 159px;
+  padding: 20px 27px 40px 20px;
+}
+.price-box-padding {
+  padding-top: 93px;
+}
+.mb-35px {
+  margin-bottom: 35px;
+}
+.mb-33px {
+  margin-bottom: 33px;
+}
+.mb-26px {
+  margin-bottom: 26px;
+}
+.mb-63px {
+  margin-bottom: 63px;
+}
+.featured-bg {
+  background: url(../images/featured-card-bg.jpg) no-repeat;
+  border-radius: 7px;
+  background-size: cover;
+}
+@media (min-width: 663px) {
+  .featured-bg {
+    border-radius: 7px;
+    width: 308px;
+    height: 245px;
+  }
+}
+.line-height-27px {
+  line-height: 27px;
+}
+.contact-us-btn {
+  width: 142px;
+  height: 46px;
+  border-radius: 7px;
+}
+.p-32px {
+  padding: 32px 32px 32px 32px;
+}
+.mb-21px {
+  margin-bottom: 21px;
+}
+
+
+
+
+
 
 
 
