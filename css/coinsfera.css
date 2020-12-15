@@ -224,6 +224,12 @@ body {
     height: 245px;
   }
 }
+.pt-119px {
+  padding-top: 119px;
+}
+.mb-76px {
+  margin-bottom: 76px;
+}
 .line-height-27px {
   line-height: 27px;
 }
@@ -235,10 +241,15 @@ body {
 .p-32px {
   padding: 32px 32px 32px 32px;
 }
+.pb-144px {
+  padding-bottom: 144px;
+}
 .mb-21px {
   margin-bottom: 21px;
 }
-
+.background-2 {
+  background-color: #fbfaf8;
+}
 
 
 
