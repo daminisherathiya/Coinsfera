@@ -1,0 +1,133 @@
+body {
+  color: #909090 !important;
+}
+@font-face {
+  font-family: Circular-Medium;
+  src: url(../fonts/Circular-Medium.ttf);
+}
+.font-circular-medium {
+  font-family: Circular-Medium !important;
+}
+@font-face {
+  font-family: CircularPro-Bold;
+  src: url(../fonts/lineto-circular-pro-bold-webfont.ttf);
+}
+.font-CircularPro-Bold {
+  font-family: CircularPro-Bold !important;
+}
+@font-face {
+  font-family: CircularPro-Book;
+  src: url(../fonts/lineto-circular-pro-book-webfont.ttf);
+}
+.font-CircularPro-Book {
+  font-family: CircularPro-Book !important;
+}
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1170px;
+  }
+}
+.pl-158px {
+  padding-left: 158px;
+}
+.gray-color {
+  color:#909090;
+}
+.active-iink {
+  color: #54575a;
+}
+.text-black {
+  color: black;
+}
+.pl-6px {
+  padding-left: 6px;
+}
+.pr-11px {
+  padding-right: 11px !important;
+}
+.pr-18px {
+  padding-right: 18px !important;
+}
+.vertical-line-nav {
+  color: #e4e4e4;
+}
+.list-style-none {
+  list-style: none;
+}
+.nav-btn {
+  border-radius: 7px;
+  border: 1px solid #f9a541;
+  color: #f9a541;
+  padding: 11px 24px;
+  font-family: Circular-Medium;
+}
+.navbar-height {
+  line-height: 43px;
+}
+.nav-divider {
+  margin: 0 17px;
+}
+.font-size-14 {
+  font-size: 14px !important;
+}
+.font-size-18 {
+  font-size: 18px !important;
+}
+.font-size-21 {
+  font-size: 21px !important;
+}
+.mb-10px {
+  margin-bottom: 10px;
+}
+.font-size-42 {
+  font-size: 42px;
+}
+.black-color {
+  color: #202020;
+}
+.letter-spacing-npoint7px {
+  letter-spacing: -0.7px;
+}
+.best-marketplace-top-padding {
+  padding-top: 80px;
+}
+.orange-color {
+  color: #f9a541;
+}
+.mt-30px {
+  margin-top: 30px;
+}
+.see-stores-btn {
+  border: 1px solid #909090;
+  border-radius: 7px;
+  width: 157px;
+  height: 53px;
+  margin-top: 27px;
+}
+.pt-25px {
+  padding-top: 25px;
+}
+.address-img {
+  top: 26px;
+  right: -27px;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.address-tag {
+  border-radius: 5px;
+  background-color: #f9a541;
+  width: 324px;
+  height: 159px;
+  padding: 35px 33px;
+  z-index: 3;
+  left: 58px;
+  top: 304px;
+}
+.pin-icon-img {
+  left: 7px;
+  top: -49px;
+}
+
+
+
