@@ -229,7 +229,8 @@ body {
 .background-1 {
   /* background-color: rgb( 247, 246, 244 ); */
   background: linear-gradient(to bottom,
-  rgb( 247, 246, 244 ) 90%, white 90% 100%);;
+  rgb( 247, 246, 244 ) 90%, white 90% 100%);
+  padding-top: 83px;
   /* height: 759px; */
 }
 .nav-bg {
@@ -271,8 +272,8 @@ body {
     height: 245px;
   }
 }
-.py-119px {
-  padding: 119px 0;
+.py-126px {
+  padding: 126px 0 119px 0;
 }
 .mb-76px {
   margin-bottom: 76px;
@@ -423,8 +424,8 @@ body {
   min-height: 301px;
   height: 100%;
 }
-.py-137px-143px {
-  padding-top: 137px;
+.py-148px-143px {
+  padding-top: 148px;
   padding-bottom: 143px;
 }
 .my-143px-93px {
@@ -462,7 +463,7 @@ hr {
   padding: 17px 5px 13px 4px;
   margin-bottom: 20px;
 }
-footer .col-lg-3 ul li::before {
+footer .footer-font-color .col-md-3 ul li::before {
   content: "\2022";
   color: #313131;
   font-weight: bold;
