@@ -265,7 +265,7 @@ body {
   border-radius: 7px;
   background-size: cover;
 }
-@media (min-width: 663px) {
+@media (min-width: 844px) {
   .featured-bg {
     border-radius: 7px;
     width: 308px;
