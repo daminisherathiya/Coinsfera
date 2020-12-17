@@ -22,23 +22,6 @@ body {
 .font-CircularPro-Book {
   font-family: CircularPro-Book !important;
 }
-@media (min-width: 1200px) {
-  .container{
-      max-width: 1170px;
-  }
-  .pr-60px {
-    padding-right: 60px;
-  }
-  .pr-20px {
-    padding-right: 20px;
-  }
-  .pl-55px {
-    padding-left: 55px;
-  }
-  .height-100 {
-    height: 100%;
-  }
-}
 .pl-158px {
   padding-left: 158px;
 }
@@ -122,8 +105,11 @@ body {
 .best-marketplace-top-padding {
   padding-top: 80px;
 }
-.orange-color {
+.orange-color, footer u {
   color: #f9a541;
+}
+footer u:hover {
+  color: #e6840e ;
 }
 .mr-13px {
   margin-right: 13px;
@@ -230,7 +216,6 @@ body {
   /* background-color: rgb( 247, 246, 244 ); */
   background: linear-gradient(to bottom,
   rgb( 247, 246, 244 ) 90%, white 90% 100%);
-  padding-top: 83px;
   /* height: 759px; */
 }
 .nav-bg {
@@ -474,15 +459,44 @@ footer .footer-font-color .col-md-3 ul li::before {
 .footer-bg {
   background: url(../images/footer-bg.png) no-repeat 50.5% 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1170px;
+  }
+  .pr-60px {
+    padding-right: 60px;
+  }
+  .pr-20px {
+    padding-right: 20px;
+  }
+  .pl-55px {
+    padding-left: 55px;
+  }
+  .height-100 {
+    height: 100%;
+  }
+}
+@media (max-width: 1199px) {
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 85%, white 85% 100%);
+  }
+}
+@media (max-width: 991px) {
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 88.9%, white 88.9% 100%);
+  }
+}
+@media (max-width: 767px) {
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 89%, white 89% 100%);
+  }
+}
+@media (max-width: 575px) {
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 81%, white 81% 100%);
+  }
+}
