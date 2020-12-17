@@ -26,6 +26,18 @@ body {
   .container{
       max-width: 1170px;
   }
+  .pr-60px {
+    padding-right: 60px;
+  }
+  .pr-20px {
+    padding-right: 20px;
+  }
+  .pl-55px {
+    padding-left: 55px;
+  }
+  .height-100 {
+    height: 100%;
+  }
 }
 .pl-158px {
   padding-left: 158px;
@@ -122,8 +134,37 @@ body {
 .pt-72px {
   padding-top: 72px;
 }
+.mb-55px {
+  margin-bottom: 55px;
+}
+.mb-14px {
+  margin-bottom: 14px;
+}
+.mb-35px {
+  margin-bottom: 35px;
+}
+.mr-18px {
+  margin-right: 18px;
+}
+.pr-68px {
+  padding-right: 68px;
+}
 .mt-30px {
   margin-top: 30px;
+}
+.mt-28px {
+  margin-top: 28px;
+}
+.mt-56px {
+  margin-top: 56px;
+}
+.py-132px-148px {
+  padding-top: 132px;
+  padding-bottom: 148px;
+}
+.my-166px-136px {
+  margin-top: 166px;
+  margin-bottom: 136px;
 }
 .see-stores-btn {
   border: 1px solid #909090;
@@ -175,6 +216,12 @@ body {
     top: 453px;
   } 
 }
+@media (max-width: 767px) {
+  .address-box {
+    max-width: 100% !important;
+    margin-bottom: 20px;
+  } 
+}
 .pin-icon-img {
   left: 7px;
   top: -49px;
@@ -224,8 +271,8 @@ body {
     height: 245px;
   }
 }
-.pt-119px {
-  padding-top: 119px;
+.py-119px {
+  padding: 119px 0;
 }
 .mb-76px {
   margin-bottom: 76px;
@@ -250,6 +297,186 @@ body {
 .background-2 {
   background-color: #fbfaf8;
 }
+.learn-more-btn {
+  background-color: #f9a541;
+  border-radius: 7px;
+  width: 157px;
+  height: 53px;
+}
+.mt-35px {
+  margin-top: 35px;
+}
+.buy-crypto-box {
+  border-radius: 9px;
+  background-color:#f9f6ee;
+  /* width: 510px; */
+  height: 529px;
+  margin-top: 91px;
+}
+.sell-crypto-box {
+  border-radius: 9px;
+  background-color:#f6f6f7;
+  /* width: 512px; */
+  height: 499px;
+}
+.crypto-box {
+  border-radius: 9px;
+  background-color:#eff5f3;
+  /* width: 512px; */
+  height: 499px;
+  margin-top: 31px;
+}
+.buy-crypto-bg {
+  background: url(../images/buy-crypto-bg.png) no-repeat -115px 223px;
+  height: 100%;
+}
+.sell-crypto-bg {
+  background: url(../images/sell-crypto-bg.png) no-repeat ;
+  height: 100%;
+}
+.crypto-bg {
+  background: url(../images/crypto-category-img.png) no-repeat 77px 195px;
+  height: 100%;
+}
+.py-157px-202px {
+  padding-top: 157px;
+  padding-bottom: 202px;
+}
+.pt-132px {
+  padding-top: 132px;
+}
+.mt-62px {
+  margin-top: 62px;
+}
+.line-height-40px {
+  line-height: 40px;
+}
+.pr-47px {
+  padding-right: 47px;
+}
+.crypto-box-p {
+  padding: 66px 35px 0 56px;
+}
+.crypto-box-p1 {
+  padding: 56px 35px 0 54px;
+}
+.my-22px-41px {
+  margin-top: 22px;
+  margin-bottom: 41px;
+}
+.my-29px-34px {
+  margin-top: 29px;
+  margin-bottom: 34px;
+}
+.my-29px-41px {
+  margin-top: 29px;
+  margin-bottom: 41px;
+}
+.customer-box {
+  border-radius: 7px;
+  background-color: #f9a541;
+  /* width: 153px;
+  height: 194px; */
+  padding-top: 36px;
+  padding-bottom: 12px;
+}
+.transaction-box {
+  border-radius: 7px;
+  background-color: #dccb89;
+  /* width: 153px;
+  height: 194px; */
+  padding-top: 36px;
+  padding-bottom: 7px;
+}
+.feedback-box {
+  border-radius: 7px;
+  background-color:#00c4a6;
+  /* width: 153px;
+  height: 194px; */
+  padding-top: 36px;
+  padding-bottom: 15px;
+}
+.mt-32px{
+  margin-top: 32px;
+}
+.background-3 {
+  background: url(../images/bg-img.png) no-repeat 48% 7%;;
+  background-size: 52%;
+}
+.get-startd-btn {
+  border-radius: 7px;
+  background-color: #f9a541;
+  width: 157px;
+  height: 53px;
+}
+.mb-86px {
+  margin-bottom: 86px;
+}
+.background-4 {
+  background: url(../images/worold-map.png) no-repeat 197% 58%;
+}
+.address-box {
+  border-radius: 5px;
+  box-shadow: 0px 3px 9px 0px rgba(200, 183, 166, 0.15);
+  padding: 33px 27px 30px 30px;
+  max-width: 258px;
+  min-height: 301px;
+  height: 100%;
+}
+.py-137px-143px {
+  padding-top: 137px;
+  padding-bottom: 143px;
+}
+.my-143px-93px {
+  margin-top: 143px;
+  margin-bottom: 93px;
+}
+.footer-font-color, footer .footer-font-color li a{
+  color: #6b6b6b;
+}
+hr {
+  border-top: 0.5px solid #2b2b2b;
+}
+.pt-91px {
+  padding-top: 91px;
+}
+.pb-176px {
+  padding-bottom: 176px;
+}
+.mb-83px {
+  margin-bottom: 83px;
+}
+.mb-43px {
+  margin-bottom: 43px;
+}
+.black-bg {
+  background-color: #202020;
+}
+.pin-setter{
+  top: -10px;
+  left: 25px;
+}
+.social-media-box {
+  border: 1px solid #e7e2d9;
+  border-radius: 5px;
+  padding: 17px 5px 13px 4px;
+  margin-bottom: 20px;
+}
+footer .col-lg-3 ul li::before {
+  content: "\2022";
+  color: #313131;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.footer-bg {
+  background: url(../images/footer-bg.png) no-repeat 50.5% 100%;
+}
+
+
+
+
 
 
 
