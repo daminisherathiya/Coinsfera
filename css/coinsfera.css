@@ -216,6 +216,7 @@ footer u:hover {
   /* background-color: rgb( 247, 246, 244 ); */
   background: linear-gradient(to bottom,
   rgb( 247, 246, 244 ) 90%, white 90% 100%);
+  padding-top: 83px;
   /* height: 759px; */
 }
 .nav-bg {
@@ -229,6 +230,14 @@ footer u:hover {
   width: 258px;
   height: 159px;
   padding: 20px 27px 40px 20px;
+}
+.arrow-setter {
+  right: 10px;
+  top: 147px;
+  z-index: 200;
+}
+.arrow-setter img:hover {
+  height: 15px;
 }
 .price-box-padding {
   padding-top: 93px;
