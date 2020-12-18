@@ -16,7 +16,7 @@ function show_banners() {
 
 function event_listner_for_prev_arrow() {
   var img = document.querySelector(".address-img");
-  banner_imgs_idx = (banner_imgs_idx - 1);
+  banner_imgs_idx = (banner_imgs_idx -1+3 )%3;
   img.setAttribute("src", banner_imgs[banner_imgs_idx]);
 }
 
