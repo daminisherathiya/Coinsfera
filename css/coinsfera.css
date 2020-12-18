@@ -28,8 +28,14 @@ body {
 .gray-color {
   color:#909090;
 }
-.active-iink {
+.active-iink ,.navbar ul li a:active {
   color: #54575a;
+}
+.navbar-toggler:hover, .see-stores-btn:hover {
+  background-color: #ececec;
+}
+.navbar-toggler:focus {
+  outline: none;
 }
 .text-black {
   color: black;
@@ -62,6 +68,9 @@ body {
 }
 .nav-divider {
   margin: 0 17px;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
 }
 .font-size-12 {
   font-size: 12px !important;
@@ -108,8 +117,11 @@ body {
 .orange-color, footer u {
   color: #f9a541;
 }
-footer u:hover {
-  color: #e6840e ;
+footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
+  color: #e77f00 ;
+}
+.learn-more-btn:hover ,.get-startd-btn:hover{
+  background-color: #e77f00;
 }
 .mr-13px {
   margin-right: 13px;
@@ -179,6 +191,7 @@ footer u:hover {
 .address-tag {
   border-radius: 5px;
   background-color: #f9a541;
+  box-shadow: 8.485px 8.485px 27px 0px rgba(122, 116, 105, 0.25);
   width: 324px;
   height: 159px;
   padding: 35px 33px;
@@ -245,7 +258,7 @@ footer u:hover {
   }
 }
 .py-126px {
-  padding: 119px 0 119px 0;
+  padding: 126px 0 119px 0;
 }
 .mb-76px {
   margin-bottom: 76px;
@@ -304,11 +317,11 @@ footer u:hover {
   height: 100%;
 }
 .sell-crypto-bg {
-  background: url(../images/sell-crypto-bg.png) no-repeat ;
+  background: url(../images/sell-crypto-bg.png) no-repeat right bottom;
   height: 100%;
 }
 .crypto-bg {
-  background: url(../images/crypto-category-img.png) no-repeat 77px 195px;
+  background: url(../images/crypto-category-img.png) no-repeat right -242px bottom -349px;
   height: 100%;
 }
 .py-157px-202px {
@@ -382,6 +395,9 @@ footer u:hover {
   width: 157px;
   height: 53px;
 }
+.about-imgs {
+  /* height: 560px; */
+}
 .mb-86px {
   margin-bottom: 86px;
 }
@@ -391,7 +407,7 @@ footer u:hover {
 .address-box {
   border-radius: 5px;
   box-shadow: 0px 3px 9px 0px rgba(200, 183, 166, 0.15);
-  padding: 33px 27px 30px 30px;
+  padding: 33px 20px 30px 30px;
   max-width: 258px;
   min-height: 301px;
   height: 100%;
@@ -406,6 +422,9 @@ footer u:hover {
 }
 .footer-font-color, footer .footer-font-color li a{
   color: #6b6b6b;
+}
+footer .footer-font-color li a:hover, .company_name:hover {
+  color: #aaa7a7 !important;
 }
 hr {
   border-top: 0.5px solid #2b2b2b;
