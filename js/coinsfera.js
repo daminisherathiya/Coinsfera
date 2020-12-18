@@ -8,20 +8,41 @@ var next_arrow;
 // });
 
 function show_banners() {
-  prev_arrow = document.querySelector(".prev");
-  next_arrow = document.querySelector(".next");
+  prev_arrow = document.querySelector(".prev img");
+  next_arrow = document.querySelector(".next img");
   prev_arrow.addEventListener("click", event_listner_for_prev_arrow);
   next_arrow.addEventListener("click", event_listner_for_next_arrow);
 }
 
+function disable_arrows(banner_imgs_idx) {
+  if(banner_imgs_idx<=0) {  
+    prev_arrow.setAttribute ("src", "./images/prev-arrow-light.png");
+    prev_arrow.classList.add("arrow-pointer-disable");
+    banner_imgs_idx=0;
+  }
+  else if(banner_imgs_idx>=2) {  
+    next_arrow.setAttribute ("src", "./images/next-arrow-light.png");
+    next_arrow.classList.add("arrow-pointer-disable");
+    banner_imgs_idx=2;
+  }
+  else {
+    prev_arrow.setAttribute ("src", "./images/prev-arrow.png");
+    next_arrow.setAttribute ("src", "./images/next-arrow.png");
+    prev_arrow.classList.remove("arrow-pointer-disable");
+    next_arrow.classList.remove("arrow-pointer-disable");
+  }
+}
 function event_listner_for_prev_arrow() {
   var img = document.querySelector(".address-img");
-  banner_imgs_idx = (banner_imgs_idx -1+3 )%3;
+  banner_imgs_idx = (banner_imgs_idx - 1);
+  disable_arrows(banner_imgs_idx);
+  // var prev_arrow_img =document.querySelector(".prev img");
   img.setAttribute("src", banner_imgs[banner_imgs_idx]);
 }
 
 function event_listner_for_next_arrow() {
   var img = document.querySelector(".address-img");
-  banner_imgs_idx = (banner_imgs_idx + 1) % 3;
+  banner_imgs_idx = (banner_imgs_idx + 1);
+  disable_arrows(banner_imgs_idx);
   img.setAttribute("src", banner_imgs[banner_imgs_idx]);
 }
