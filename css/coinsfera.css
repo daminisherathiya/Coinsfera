@@ -49,9 +49,9 @@ body {
 .pr-18px {
   padding-right: 18px !important;
 }
-.vertical-line-nav {
+/* .vertical-line-nav {
   color: #e4e4e4;
-}
+} */
 .list-style-none {
   list-style: none;
 }
@@ -66,9 +66,9 @@ body {
 .navbar-height {
   line-height: 43px;
 }
-.nav-divider {
+/* .nav-divider {
   margin: 0 17px;
-}
+} */
 .navbar .nav-item:hover .dropdown-menu {
   display: block;
 }
@@ -117,10 +117,15 @@ body {
 .orange-color, footer u {
   color: #f9a541;
 }
-footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
+footer u:hover ,.contact-us-btn:hover{
   color: #e77f00 ;
 }
-.learn-more-btn:hover ,.get-startd-btn:hover{
+.nav-btn:hover, .see-stores-btn:hover {
+  background-color: #f9a541;
+  color: white;
+  border: 1px solid #f9a541;
+}
+.get-startd-btn:hover{
   background-color: #e77f00;
 }
 .mr-13px {
@@ -160,6 +165,9 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
   padding-top: 132px;
   padding-bottom: 148px;
 }
+.my-35px {
+  margin: 35px 0;
+}
 .my-166px-136px {
   margin-top: 166px;
   margin-bottom: 136px;
@@ -183,7 +191,6 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
 .address-img {
   top: 26px;
   left: 136px;
-  max-width: 100%;
 }
 .overflow-x-hidden {
   overflow-x: hidden;
@@ -217,7 +224,7 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
 .price-box {
   border-radius: 9px;
   background-color: rgb( 255, 255, 255 );
-  box-shadow: 0px 3px 9px 0px rgb( 200, 183, 166 );
+  box-shadow: 0px 3px 9px 0px rgb( 248, 244, 240);
   width: 258px;
   height: 159px;
   padding: 20px 27px 40px 20px;
@@ -227,23 +234,20 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
   top: 147px;
   z-index: 200;
 }
-.arrow-setter img:hover {
-  height: 15px;
-}
 .price-box-padding {
   padding-top: 93px;
 }
-.mb-35px {
-  margin-bottom: 35px;
+.mb-29px {
+  margin-bottom: 29px;
 }
-.mb-33px {
+/* .mb-33px {
   margin-bottom: 33px;
 }
 .mb-26px {
   margin-bottom: 26px;
-}
-.mb-63px {
-  margin-bottom: 63px;
+} */
+.mb-75px {
+  margin-bottom: 75px;
 }
 .featured-bg {
   background: url(../images/featured-card-bg.jpg) no-repeat;
@@ -253,8 +257,7 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
 @media (min-width: 844px) {
   .featured-bg {
     border-radius: 7px;
-    width: 308px;
-    height: 245px;
+    margin-right: 52px;
   }
 }
 .py-126px {
@@ -274,8 +277,8 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
 .p-32px {
   padding: 32px 32px 32px 32px;
 }
-.pb-144px {
-  padding-bottom: 144px;
+.pb-64px {
+  padding-bottom: 64px;
 }
 .mb-21px {
   margin-bottom: 21px;
@@ -288,6 +291,11 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
   border-radius: 7px;
   width: 157px;
   height: 53px;
+}
+.learn-more-btn:hover, .get-startd-btn:hover {
+  background-color: white;
+  color: #f9a541 !important;
+  border: 1px solid #f9a541;
 }
 .mt-35px {
   margin-top: 35px;
@@ -313,7 +321,7 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
   margin-top: 31px;
 }
 .buy-crypto-bg {
-  background: url(../images/buy-crypto-bg.png) no-repeat -115px 223px;
+  background: url(../images/buy-crypto-bg.png) no-repeat right 37% bottom 269%;
   height: 100%;
 }
 .sell-crypto-bg {
@@ -346,17 +354,9 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
 .crypto-box-p1 {
   padding: 56px 35px 0 54px;
 }
-.my-22px-41px {
-  margin-top: 22px;
-  margin-bottom: 41px;
-}
 .my-29px-34px {
   margin-top: 29px;
   margin-bottom: 34px;
-}
-.my-29px-41px {
-  margin-top: 29px;
-  margin-bottom: 41px;
 }
 .customer-box {
   border-radius: 7px;
@@ -402,7 +402,7 @@ footer u:hover ,.contact-us-btn:hover, .nav-btn:hover{
   margin-bottom: 86px;
 }
 .background-4 {
-  background: url(../images/worold-map.png) no-repeat 197% 58%;
+  background: url(../images/worold-map.png) no-repeat top 58% left 305%;
 }
 .address-box {
   border-radius: 5px;
@@ -465,6 +465,44 @@ footer .footer-font-color .col-md-3 ul li::before {
 .footer-bg {
   background: url(../images/footer-bg.png) no-repeat 50.5% 100%;
 }
+
+
+.l-border::before {
+  content: "";
+  border-left: 1px solid#e4e4e4;
+  margin: 0 11px 0 0;
+}
+.l-border-lang::before {
+  content: "";
+  border-left: 1px solid#e4e4e4;
+  margin: 0 5px 0 5px;
+}
+
+.nav-link.nav-padding {
+  padding: 8px 15px !important;
+}
+.h-73px {
+  height: 73px;
+}
+.t-center li a:hover{
+  color: #202020;
+}
+.sell-line::after {
+  content: url(../images/horizontal-line-yellow.png);
+  display: block;
+  line-height: 7px;
+}
+.crypto-line::after {
+  content: url(../images/horizontal-line-green.png);
+  display: block;
+  line-height: 7px;
+}
+.buy-line::after {
+  content: url(../images/horizontal-line-orange.png);
+  display: block;
+  line-height: 7px;
+}
+
 @media (min-width: 1200px) {
   .container{
       max-width: 1170px;
@@ -537,6 +575,16 @@ footer .footer-font-color .col-md-3 ul li::before {
   .arrow-setter {
     left: 596px;
     top: 147px;
+  }
+  .l-border::before {
+    display: none;
+  }
+  .navbar ul li a {
+    text-align: center;
+  }
+  .t-center, form {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 991px) {
