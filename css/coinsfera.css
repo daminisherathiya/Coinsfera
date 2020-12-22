@@ -46,7 +46,7 @@ body {
 .pl-6px {
   padding-left: 6px;
 }
-.pr-11px {
+.address-container {
   padding-right: 11px !important;
 }
 .pr-18px {
@@ -149,22 +149,22 @@ footer u:hover ,.contact-us-btn:hover{
   padding-top: 72px;
   padding-bottom: 64px;
 }
-.mb-55px {
+.crypto-money-title {
   margin-bottom: 55px;
 }
-.mb-14px {
+.crypto-money-h4 {
   margin-bottom: 14px;
 }
-.mb-35px {
+.crypto-money-col {
   margin-bottom: 35px;
 }
-.mr-18px {
+.crypto-money-img {
   margin-right: 18px;
 }
-.pr-68px {
+.crypto-money-disc {
   padding-right: 68px;
 }
-.mt-30px {
+.email {
   margin-top: 30px;
 }
 .buy-sell-crypto-paragraph {
@@ -174,7 +174,7 @@ footer u:hover ,.contact-us-btn:hover{
 .cryptocurrency-paragraph {
   margin: 35px 0;
 }
-.my-166px-136px {
+.crypto-money-section {
   margin-top: 166px;
   margin-bottom: 136px;
 }
@@ -286,7 +286,7 @@ footer u:hover ,.contact-us-btn:hover{
 .p-32px {
   padding: 32px 32px 32px 32px;
 }
-.mb-21px {
+.map-h4 {
   margin-bottom: 21px;
 }
 .background-2 {
@@ -308,7 +308,7 @@ footer u:hover ,.contact-us-btn:hover{
   color: #f9a541 !important;
   border: 1px solid #f9a541;
 }
-.mt-35px {
+.phone-no {
   margin-top: 35px;
 }
 .buy-crypto-box {
@@ -424,12 +424,15 @@ footer u:hover ,.contact-us-btn:hover{
   min-height: 301px;
   height: 100%;
 }
-.py-148px-143px {
-  padding-top: 148px;
+.social-section {
+  padding-top: 143px;
   padding-bottom: 143px;
 }
-.my-143px-93px {
-  margin-top: 143px;
+.feature-box {
+  margin-bottom: 21px;
+}
+.map-title {
+  margin-top: 137px;
   margin-bottom: 93px;
 }
 .footer-font-color, footer .footer-font-color li a{
@@ -441,16 +444,17 @@ footer .footer-font-color li a:hover, .company_name:hover {
 hr {
   border-top: 0.5px solid #2b2b2b;
 }
-.pt-91px {
+.footer-section {
   padding-top: 91px;
+  padding-bottom: 16px;
 }
-.pb-176px {
+.map-section {
   padding-bottom: 176px;
 }
-.mb-83px {
+.footer-container {
   margin-bottom: 83px;
 }
-.mb-43px {
+.social-title {
   margin-bottom: 43px;
 }
 .black-bg {
@@ -589,7 +593,7 @@ footer .footer-font-color .col-md-3 ul li::before {
     display: flex;
     justify-content: center;
   }
-  .pr-68px, .cryptocurrency-col1 {
+  .crypto-money-disc, .cryptocurrency-col1 {
     padding-right: 0px;
   }
 }
