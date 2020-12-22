@@ -191,6 +191,7 @@ footer u:hover ,.contact-us-btn:hover{
 .address-img {
   top: 26px;
   left: 136px;
+  position: absolute;
 }
 .overflow-x-hidden {
   overflow-x: hidden;
@@ -351,9 +352,6 @@ footer u:hover ,.contact-us-btn:hover{
 .crypto-box-p {
   padding: 66px 35px 0 56px;
 }
-.crypto-box-p1 {
-  padding: 56px 35px 0 54px;
-}
 .my-29px-34px {
   margin-top: 29px;
   margin-bottom: 34px;
@@ -402,7 +400,8 @@ footer u:hover ,.contact-us-btn:hover{
   margin-bottom: 86px;
 }
 .background-4 {
-  background: url(../images/worold-map.png) no-repeat top 58% left 305%;
+  background: url(../images/worold-map.png) no-repeat;
+  background-position: right top;
 }
 .address-box {
   border-radius: 5px;
@@ -586,6 +585,9 @@ footer .footer-font-color .col-md-3 ul li::before {
     display: flex;
     justify-content: center;
   }
+  .pr-68px, .pr-20px {
+    padding-right: 0px;
+  }
 }
 @media (max-width: 991px) {
   .address {
@@ -619,6 +621,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   .arrow-setter {
     left: 17px;
     top: -31px;
+  }
+  .crypto-box-p {
+    padding: 15px;
   }
 }
 @media (max-width: 380px) {
