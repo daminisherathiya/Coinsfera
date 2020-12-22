@@ -87,7 +87,7 @@ body {
   font-size: 24px !important;
 }
 .font-size-36 {
-  font-size: 36px !important;
+  font-size: 36px;
 }
 .title-m {
   margin-bottom: 10px;
@@ -614,6 +614,39 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .crypto-box-p,.crypto-box-p1 {
     padding: 15px;
+  }
+}
+@media (max-width: 450px) {
+  h1, h2 {
+    font-size: 32px !important;
+  }
+  .price-box-padding {
+    padding-top: 0px;
+  }
+  .about-section {
+    padding: 64px 0 88px 0;
+  }
+  .cryptocurrency-section {
+    padding-top: 33px;
+    padding-bottom: 102px;
+  }
+  .buy-sell-crypto-section {
+    padding-top: 89px;
+    padding-bottom: 97px;
+  }
+  .crypto-money-section {
+    margin-top: 90px;
+    margin-bottom: 44px;
+  }
+  .map-title {
+    margin-top: 85px;
+  }
+  .map-section {
+    padding-bottom: 65px;
+  }
+  .social-section {
+    padding-top: 83px;
+    padding-bottom: 54px;
   }
 }
 @media (max-width: 380px) {
