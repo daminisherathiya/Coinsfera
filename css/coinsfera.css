@@ -22,9 +22,6 @@ body {
 .font-CircularPro-Book {
   font-family: CircularPro-Book !important;
 }
-.pl-158px {
-  padding-left: 158px;
-}
 .gray-color {
   color:#909090;
 }
@@ -43,18 +40,12 @@ body {
 .line-padding {
   padding-right: 11px;
 }
-.pl-6px {
+.dropdown-arrow {
   padding-left: 6px;
 }
 .address-container {
   padding-right: 11px !important;
 }
-.pr-18px {
-  padding-right: 18px !important;
-}
-/* .vertical-line-nav {
-  color: #e4e4e4;
-} */
 .list-style-none {
   list-style: none;
 }
@@ -74,9 +65,6 @@ body {
 .navbar-height {
   line-height: 43px;
 }
-/* .nav-divider {
-  margin: 0 17px;
-} */
 .navbar .nav-item:hover .dropdown-menu {
   display: block;
 }
@@ -139,7 +127,7 @@ footer u:hover ,.contact-us-btn:hover{
 .get-startd-btn:hover{
   background-color: #e77f00;
 }
-.mr-13px {
+.price-box-icon {
   margin-right: 13px;
 }
 .features-section {
@@ -184,12 +172,6 @@ footer u:hover ,.contact-us-btn:hover{
   width: 157px;
   height: 53px;
   margin-top: 27px;
-}
-.pt-25px {
-  padding-top: 25px;
-}
-.pt-19px {
-  padding-top: 19px;
 }
 .address {
   height: 498px;
@@ -244,12 +226,6 @@ footer u:hover ,.contact-us-btn:hover{
 .price-box-padding {
   padding-top: 93px;
 }
-/* .mb-33px {
-  margin-bottom: 33px;
-}
-.mb-26px {
-  margin-bottom: 26px;
-} */
 .feature-col {
   margin-bottom: 75px;
 }
@@ -262,12 +238,12 @@ footer u:hover ,.contact-us-btn:hover{
   border-radius: 7px;
   background-size: cover;
 }
-@media (min-width: 844px) {
+/* @media (min-width: 844px) {
   .featured-bg {
     border-radius: 7px;
     margin-right: 52px;
   }
-}
+} */
 .about-section {
   padding: 126px 0 119px 0;
 }
@@ -283,7 +259,7 @@ footer u:hover ,.contact-us-btn:hover{
   height: 46px;
   border-radius: 7px;
 }
-.p-32px {
+.feature-contact-box {
   padding: 32px 32px 32px 32px;
 }
 .map-h4 {
@@ -351,9 +327,6 @@ footer u:hover ,.contact-us-btn:hover{
 .cryptocurrency-col1 {
   padding-left: 55px;
   padding-right: 20px;
-}
-.pt-132px {
-  padding-top: 132px;
 }
 .crypto-box-p {
   padding: 66px 35px 0 56px;
@@ -526,6 +499,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   .height-100 {
     height: 100%;
   }
+  .featured-bg {
+    margin-right: 52px;
+  }
 }
 @media (max-width: 1199px) {
   .background-1 {
@@ -562,6 +538,12 @@ footer .footer-font-color .col-md-3 ul li::before {
     left: 374px;
     top: 95px;
   }
+  .cryptocurrency-title {
+    padding-right: 0px;
+  }
+  .crypto-money-disc {
+    padding-right: 0px;
+  }
 }
 .arrow-pointer-disable {
   pointer-events: none;
@@ -593,18 +575,15 @@ footer .footer-font-color .col-md-3 ul li::before {
     display: flex;
     justify-content: center;
   }
-  .crypto-money-disc, .cryptocurrency-col1 {
-    padding-right: 0px;
+  .cryptocurrency-col1 {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 @media (max-width: 991px) {
   .address {
     height: 700px;
   }
-  /* .address-tag {
-    left: 127px;
-    top: 453px;
-  }  */
 }
 
 @media (max-width: 767px) {
@@ -623,6 +602,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   .arrow-setter {
     left: 374px;
     top: 95px;
+  }
+  .address-container {
+    padding-right: 0px !important;
   }
 }
 @media (max-width: 576px) {
