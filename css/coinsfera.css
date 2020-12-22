@@ -40,6 +40,9 @@ body {
 .text-black {
   color: black;
 }
+.line-padding {
+  padding-right: 11px;
+}
 .pl-6px {
   padding-left: 6px;
 }
@@ -93,7 +96,7 @@ body {
 .font-size-36 {
   font-size: 36px !important;
 }
-.mb-10px {
+.title-m {
   margin-bottom: 10px;
 }
 .font-size-42 {
@@ -110,6 +113,9 @@ body {
 }
 .letter-spacing-npoint7px {
   letter-spacing: -0.7px;
+}
+.title-pa {
+  margin-top: 30px;
 }
 .best-marketplace-top-padding {
   padding-top: 80px;
@@ -131,11 +137,12 @@ footer u:hover ,.contact-us-btn:hover{
 .mr-13px {
   margin-right: 13px;
 }
-.pt-111px {
+.features-section {
   padding-top: 111px;
 }
-.pt-72px {
+.features-icons-container {
   padding-top: 72px;
+  padding-bottom: 64px;
 }
 .mb-55px {
   margin-bottom: 55px;
@@ -238,17 +245,18 @@ footer u:hover ,.contact-us-btn:hover{
 .price-box-padding {
   padding-top: 93px;
 }
-.mb-29px {
-  margin-bottom: 29px;
-}
 /* .mb-33px {
   margin-bottom: 33px;
 }
 .mb-26px {
   margin-bottom: 26px;
 } */
-.mb-75px {
+.feature-col {
   margin-bottom: 75px;
+}
+.feature-icon-setter {
+  margin-bottom: 29px;
+  height: 73px;
 }
 .featured-bg {
   background: url(../images/featured-card-bg.jpg) no-repeat;
@@ -267,7 +275,7 @@ footer u:hover ,.contact-us-btn:hover{
 .mb-76px {
   margin-bottom: 76px;
 }
-.line-height-27px {
+.icon-paragraph {
   line-height: 27px;
 }
 .contact-us-btn {
@@ -277,9 +285,6 @@ footer u:hover ,.contact-us-btn:hover{
 }
 .p-32px {
   padding: 32px 32px 32px 32px;
-}
-.pb-64px {
-  padding-bottom: 64px;
 }
 .mb-21px {
   margin-bottom: 21px;
@@ -479,9 +484,6 @@ footer .footer-font-color .col-md-3 ul li::before {
 
 .nav-link.nav-padding {
   padding: 8px 15px !important;
-}
-.h-73px {
-  height: 73px;
 }
 .t-center li a:hover{
   color: #202020;
