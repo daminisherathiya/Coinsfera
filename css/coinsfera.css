@@ -604,7 +604,10 @@ footer .footer-font-color .col-md-3 ul li::before {
 }
 @media (max-width: 991px) {
   .address {
-    height: 700px;
+    height: 515px;
+  }
+  .crypto-box-p, .crypto-box-p1 {
+    padding: 30px;
   }
 }
 
@@ -627,6 +630,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .address-container {
     padding-right: 0px !important;
+  }
+  .address {
+    height: 677px;
   }
 }
 @media (max-width: 575px) {
@@ -707,5 +713,11 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .footer-section {
     padding-top: 75px;
+  }
+  .features-section {
+    padding-top: 45px;
+  }
+  .address {
+    height: 611px;
   }
 }
