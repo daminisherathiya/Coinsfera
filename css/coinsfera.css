@@ -28,6 +28,9 @@ body {
 .navbar .nav-item .nav-link {
   color: #909090;
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: #54575a !important;
+}
 .active-link ,.navbar ul li a:active {
   color: #54575a !important;
 }
