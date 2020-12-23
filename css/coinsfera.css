@@ -63,6 +63,28 @@ body {
   padding-right: 47px;
   margin-top: 62px;
 }
+/* .rounded-dotted::after {
+  content: "";
+  background: url(../images/rounded-dotted.png)no-repeat;
+  width: 206px;
+  height: 43px;
+  background-size: 51%;
+  max-width: 100px;
+  left: 0;
+  top: 0;
+} */
+.rounded-dotted-bg::after {
+  content: "";
+  background: url(../images/rounded-dotted.png) no-repeat;
+  width: 206px;
+  height: 43px;
+  position: absolute;
+  top: 6%;
+  left: 72%;
+  max-width: 51%;
+  background-size: contain;
+}
+
 .navbar-height {
   line-height: 43px;
 }
@@ -529,7 +551,7 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .address-tag {
     left: 33px;
-    top: 426px;
+    top: 457px;
   }
   .address-img {
     left: 0;
@@ -573,7 +595,6 @@ footer .footer-font-color .col-md-3 ul li::before {
     text-align: center;
   }
   .t-center, form {
-    display: flex;
     justify-content: center;
   }
   .cryptocurrency-col1 {
@@ -594,7 +615,7 @@ footer .footer-font-color .col-md-3 ul li::before {
   } 
   .address-tag {
     left: 14px;
-    top: 412px;
+    top: 444px;
   } 
   .address-img {
     left: 0;
@@ -608,13 +629,23 @@ footer .footer-font-color .col-md-3 ul li::before {
     padding-right: 0px !important;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .arrow-setter {
     left: 17px;
     top: -31px;
   }
   .crypto-box-p,.crypto-box-p1 {
     padding: 15px;
+  }
+  .rounded-dotted-bg::after {
+    display: none;
+  }
+  .address-tag {
+    left: 0%;
+    top: 100%;
+  }
+  .address-img {
+    position: relative;
   }
 }
 @media (max-width: 450px) {
@@ -676,11 +707,5 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .footer-section {
     padding-top: 75px;
-  }
-}
-@media (max-width: 380px) {
-  .address-tag {
-    width: 260px;
-    top: 351px;
   }
 }
