@@ -25,8 +25,11 @@ body {
 .gray-color {
   color:#909090;
 }
-.active-iink ,.navbar ul li a:active {
-  color: #54575a;
+.navbar .nav-item .nav-link {
+  color: #909090;
+}
+.active-link ,.navbar ul li a:active {
+  color: #54575a !important;
 }
 .navbar-toggler:hover, .see-stores-btn:hover {
   background-color: #ececec;
