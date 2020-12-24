@@ -243,9 +243,21 @@ footer u:hover ,.contact-us-btn:hover{
   border-radius: 9px;
   background-color: rgb( 255, 255, 255 );
   box-shadow: 0px 3px 9px 0px rgb( 248, 244, 240);
-  width: 258px;
-  height: 159px;
-  padding: 20px 27px 40px 20px;
+  /* width: 258px;
+  height: 159px; */
+  padding: 20px 27px 33px 20px;
+}
+.space1 {
+  padding-right: 32px;
+}
+.space2 {
+  padding-right: 52px;
+}
+.space3 {
+  padding-right: 63px;
+}
+.space4 {
+  padding-right: 55px;
 }
 .arrow-setter {
   left: 596px;
@@ -256,7 +268,7 @@ footer u:hover ,.contact-us-btn:hover{
   padding-top: 93px;
 }
 .feature-col {
-  margin-bottom: 75px;
+  margin-bottom: 91px;
 }
 .feature-icon-setter {
   margin-bottom: 29px;
@@ -354,14 +366,14 @@ footer u:hover ,.contact-us-btn:hover{
   padding-bottom: 202px;
 }
 .cryptocurrency-col1 {
-  padding-left: 55px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 7px;
 }
 .crypto-box-p {
   padding: 66px 35px 0 56px;
 }
 .crypto-box-p1 {
-  padding: 57px 35px 0 56px;
+  padding: 57px 33px 0 56px;
 }
 .my-29px-34px {
   margin-top: 29px;
@@ -404,9 +416,6 @@ footer u:hover ,.contact-us-btn:hover{
   width: 157px;
   height: 53px;
   margin-top: 56px;
-}
-.about-imgs {
-  /* height: 560px; */
 }
 .buy-sell-crypto-title {
   margin-bottom: 86px;
@@ -517,13 +526,16 @@ footer .footer-font-color .col-md-3 ul li::before {
   display: block;
   line-height: 7px;
 }
+.buy-sell-p {
+  padding-left: 39px;
+}
 
 @media (min-width: 1200px) {
   .container{
       max-width: 1170px;
   }
   .cryptocurrency-col2 {
-    padding-right: 60px;
+    padding-right: 44px;
   }
   .height-100 {
     height: 100%;
@@ -577,10 +589,77 @@ footer .footer-font-color .col-md-3 ul li::before {
 .arrow-pointer-disable {
   pointer-events: none;
 }
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 32px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
+  .price-box-padding {
+    padding-top: 0px;
+  }
+  .about-section {
+    padding: 64px 0 77px 0;
+  }
+  .cryptocurrency-section {
+    padding-top: 0px;
+    padding-bottom: 77px;
+  }
+  .buy-sell-crypto-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .crypto-money-section {
+    margin-top: 75px;
+    margin-bottom: 33px;
+  }
+  .map-title {
+    margin-top: 85px;
+    margin-bottom: 43px;
+  }
+  .map-section {
+    padding-bottom: 65px;
+  }
+  .social-section {
+    padding-top: 75px;
+    padding-bottom: 54px;
+  }
+  .features-icons-container {
+    padding-top: 18px;
+  }
+  .feature-col {
+    margin-bottom: 40px;
+  }
+  .about-paragraph {
+    margin-bottom: 30px;
+  }
+  .buy-crypto-box {
+    margin-top: 44px;
+  }
+  .buy-sell-crypto-title {
+    margin-bottom: 38px;
+  }
+  .crypto-money-col {
+    margin-bottom: 20px;
+  }
+  .footer-section {
+    padding-top: 75px;
+  }
+  .features-section {
+    padding-top: 45px;
+  }
+}
 @media (max-width: 991px) {
   .background-1 {
     background: linear-gradient(to bottom,
   rgb( 247, 246, 244 ) 88.9%, white 88.9% 100%);
+  }
+  .buy-sell-p {
+    padding-left: 0px;
   }
   .address-tag {
     left: 58px;
@@ -662,7 +741,7 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
 }
 @media (max-width: 450px) {
-  h1 {
+  /* h1 {
     font-size: 32px !important;
   }
   h2 {
@@ -723,7 +802,7 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .features-section {
     padding-top: 45px;
-  }
+  } */
   .address {
     height: 611px;
   }
