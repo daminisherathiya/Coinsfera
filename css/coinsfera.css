@@ -217,8 +217,7 @@ footer u:hover ,.contact-us-btn:hover{
   border-radius: 5px;
   background-color: #f9a541;
   box-shadow: 8.485px 8.485px 27px 0px rgba(122, 116, 105, 0.25);
-  width: 324px;
-  height: 159px;
+  max-width: 324px;
   padding: 35px 33px;
   left: 58px;
   top: 304px;
@@ -556,7 +555,7 @@ footer .footer-font-color .col-md-3 ul li::before {
 }
 @media (max-width: 1200px) {
   .address {
-    height: 700px;
+    height: 645px;
   }
   .address-tag {
     left: 33px;
@@ -738,6 +737,16 @@ footer .footer-font-color .col-md-3 ul li::before {
     position: relative;
   }
 }
+@media (max-width: 550px) {
+  .address {
+    height: 635px;
+  }
+}
+@media (max-width: 475px) {
+  .address {
+    height: 600px;
+  }
+}
 @media (max-width: 450px) {
   /* h1 {
     font-size: 32px !important;
@@ -802,6 +811,16 @@ footer .footer-font-color .col-md-3 ul li::before {
     padding-top: 45px;
   } */
   .address {
-    height: 611px;
+    height: 580px;
+  }
+}
+@media (max-width: 410px) {
+  .address {
+    height: 550px;
+  }
+}
+@media (max-width: 380px) {
+  .address {
+    height: 510px;
   }
 }
