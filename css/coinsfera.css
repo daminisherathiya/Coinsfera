@@ -239,25 +239,16 @@ footer u:hover ,.contact-us-btn:hover{
   background-color: rgb( 247, 246, 244 );
 }
 
-.price-box {
+.price-box-wrapper {
   border-radius: 9px;
   background-color: rgb( 255, 255, 255 );
   box-shadow: 0px 3px 9px 0px rgb( 248, 244, 240);
-  /* width: 258px;
-  height: 159px; */
+}
+.price-box {
   padding: 20px 27px 33px 20px;
 }
-.space1 {
-  padding-right: 32px;
-}
-.space2 {
-  padding-right: 52px;
-}
-.space3 {
-  padding-right: 63px;
-}
-.space4 {
-  padding-right: 55px;
+.latest-price {
+  min-width: 140px;
 }
 .arrow-setter {
   left: 596px;
