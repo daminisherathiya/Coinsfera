@@ -564,8 +564,8 @@ footer .footer-font-color .col-md-3 ul li::before {
     top: 0;
   } 
   .arrow-setter {
-    left: 374px;
-    top: 95px;
+    left: 435px;
+    top: 118px;
   }
   .cryptocurrency-title {
     padding-right: 0px;
@@ -631,7 +631,7 @@ footer .footer-font-color .col-md-3 ul li::before {
     top: 0;
   } 
   .arrow-setter {
-    left: 374px;
+    left: 418px;
     top: 95px;
   }
   .address-container {
@@ -643,8 +643,9 @@ footer .footer-font-color .col-md-3 ul li::before {
 }
 @media (max-width: 575px) {
   .arrow-setter {
-    left: 17px;
-    top: -31px;
+    right: 45px;
+    left: auto;
+    top: 10%;
   }
   .crypto-box-p,.crypto-box-p1 {
     padding: 15px;
