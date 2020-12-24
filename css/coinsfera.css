@@ -539,6 +539,15 @@ footer .footer-font-color .col-md-3 ul li::before {
     background: linear-gradient(to bottom,
   rgb( 247, 246, 244 ) 85.4%, white 85% 100%);
   }
+  .cryptocurrency-title {
+    margin: 0;
+  }
+  .buy-crypto-box {
+    margin-top: 43px;
+  }
+  .cryptocurrency-section {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -648,6 +657,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .features-section {
     padding-top: 50px;
+  }
+  .footer-container {
+    margin-bottom: 31px;
   }
   .background-1 {
     background: linear-gradient(to bottom,
