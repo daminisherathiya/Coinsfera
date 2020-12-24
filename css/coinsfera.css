@@ -537,7 +537,7 @@ footer .footer-font-color .col-md-3 ul li::before {
 @media (max-width: 1199px) {
   .background-1 {
     background: linear-gradient(to bottom,
-  rgb( 247, 246, 244 ) 85%, white 85% 100%);
+  rgb( 247, 246, 244 ) 85.4%, white 85% 100%);
   }
 }
 
@@ -649,11 +649,15 @@ footer .footer-font-color .col-md-3 ul li::before {
   .features-section {
     padding-top: 50px;
   }
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 84%, white 84% 100%);
+  }
 }
 @media (max-width: 991px) {
   .background-1 {
     background: linear-gradient(to bottom,
-  rgb( 247, 246, 244 ) 88.9%, white 88.9% 100%);
+  rgb( 247, 246, 244 ) 79.6%, white 79.6% 100%);
   }
   .buy-sell-p {
     padding-left: 0px;
@@ -715,6 +719,10 @@ footer .footer-font-color .col-md-3 ul li::before {
   }
   .address {
     height: 677px;
+  }
+  .background-1 {
+    background: linear-gradient(to bottom,
+  rgb( 247, 246, 244 ) 81.3%, white 81.3% 100%);
   }
 }
 @media (max-width: 575px) {
