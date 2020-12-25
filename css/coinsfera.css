@@ -22,6 +22,15 @@ body {
 .font-CircularPro-Book {
   font-family: CircularPro-Book !important;
 }
+span img:last-child {
+  display: none;  
+}
+span:hover img:first-child {
+  display: none;  
+}
+span:hover img:last-child {
+  display: block;  
+}
 .gray-color {
   color:#909090;
 }
