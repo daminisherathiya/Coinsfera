@@ -215,10 +215,9 @@ footer u:hover ,.contact-us-btn:hover{
   height: 498px;
 }
 .address-img {
-  /* top: 26px;
-  left: 136px; */
-  /* position: absolute; */
-  float: right;
+  margin-left: auto;
+  margin-right: -41px;
+  margin-top: 25px;
 }
 .overflow-x-hidden {
   overflow-x: hidden;
@@ -226,6 +225,7 @@ footer u:hover ,.contact-us-btn:hover{
 .address-tag {
   border-radius: 5px;
   background-color: #f9a541;
+  position: absolute;
   box-shadow: 8.485px 8.485px 27px 0px rgba(122, 116, 105, 0.25);
   max-width: 324px;
   padding: 35px 33px;
@@ -576,14 +576,9 @@ footer .footer-font-color .col-md-3 ul li::before {
   .address {
     height: 645px;
   }
-  .address-tag {
-    left: 33px;
-    top: 457px;
+  #carouselExampleControls {
+    margin-bottom: 30px;
   }
-  /* .address-img {
-    left: 0;
-    top: 0;
-  }  */
   .arrow-setter {
     left: 435px;
     top: 118px;
@@ -694,10 +689,6 @@ footer .footer-font-color .col-md-3 ul li::before {
   .font-size-21 {
     font-size: 20px !important;
   }
-  /* .address-img {
-    top: 26px;
-    left: 136px;
-  } */
   .arrow-setter {
     left: 596px;
     top: 147px;
@@ -731,13 +722,11 @@ footer .footer-font-color .col-md-3 ul li::before {
     margin-bottom: 20px;
   } 
   .address-tag {
-    left: 14px;
-    top: 444px;
+    position: relative ;
+    left: auto;
+    top: auto;
+    margin: auto;
   } 
-  /* .address-img {
-    left: 0;
-    top: 0;
-  }  */
   .arrow-setter {
     left: 418px;
     top: 95px;
@@ -768,13 +757,6 @@ footer .footer-font-color .col-md-3 ul li::before {
   .buy-sell-crypto-paragraph {
     margin-bottom: 42px;
   }
-  .address-tag {
-    left: 0%;
-    top: 100%;
-  }
-  /* .address-img {
-    position: relative;
-  } */
 }
 @media (max-width: 550px) {
   .address {
