@@ -260,7 +260,7 @@ footer u:hover ,.contact-us-btn:hover{
   min-width: 140px;
 }
 .arrow-setter {
-  left: 596px;
+  right: 0px;
   top: 147px;
   z-index: 200;
 }
@@ -580,8 +580,8 @@ footer .footer-font-color .col-md-3 ul li::before {
     margin-bottom: 30px;
   }
   .arrow-setter {
-    left: 435px;
-    top: 118px;
+    right: 0px;
+    top: 138px;
   }
   .cryptocurrency-title {
     padding-right: 0px;
@@ -690,7 +690,7 @@ footer .footer-font-color .col-md-3 ul li::before {
     font-size: 20px !important;
   }
   .arrow-setter {
-    left: 596px;
+    right: 0px;
     top: 147px;
   }
   .l-border::before {
@@ -728,8 +728,8 @@ footer .footer-font-color .col-md-3 ul li::before {
     margin: auto;
   } 
   .arrow-setter {
-    left: 418px;
-    top: 95px;
+    right: 0px;
+    top: 125px;
   }
   .address-container {
     padding-right: 0px !important;
@@ -744,9 +744,11 @@ footer .footer-font-color .col-md-3 ul li::before {
 }
 @media (max-width: 575px) {
   .arrow-setter {
-    right: 45px;
-    left: auto;
-    top: 10%;
+    right: 30px;
+    top: 17%;
+  }
+  .address-img {
+    margin-right: -10px;
   }
   .crypto-box-p,.crypto-box-p1 {
     padding: 20px;
