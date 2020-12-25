@@ -782,10 +782,10 @@ footer .footer-font-color .col-md-3 ul li::before {
 }
 @media (max-width: 450px) {
   .font-size-42, .font-size-36 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   .font-size-30 {
-    font-size: 25px;
+    font-size: 21px !important;
   }
   .font-size-24 {
     font-size: 21px !important;
