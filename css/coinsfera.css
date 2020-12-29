@@ -481,8 +481,14 @@ hr {
 .social-media-box {
   border: 1px solid #e7e2d9;
   border-radius: 5px;
-  padding: 17px 5px 13px 4px;
-  margin-bottom: 20px;
+  padding: 12px 6px 12px 6px;
+  margin-bottom: 17px;
+}
+.social-media-box:hover div, .social-media-box:hover a  {
+  color: #f9a541;
+}
+.social-media-box:hover {
+  box-shadow: 3px 2px 9px 2px rgb( 248, 244, 240);
 }
 footer .footer-font-color .col-md-3 ul li::before {
   content: "\2022";
