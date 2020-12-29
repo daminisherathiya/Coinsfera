@@ -211,6 +211,9 @@ footer u:hover ,.contact-us-btn:hover{
   height: 53px;
   margin-top: 27px;
 }
+.crypto-line {
+  line-height: -0.4px;
+}
 .address {
   height: 498px;
 }
@@ -373,7 +376,7 @@ footer u:hover ,.contact-us-btn:hover{
   padding: 66px 35px 0 56px;
 }
 .crypto-box-p1 {
-  padding: 57px 33px 0 56px;
+  padding: 57px 56px 0 56px;
 }
 .my-29px-34px {
   margin-top: 29px;
